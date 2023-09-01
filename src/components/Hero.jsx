@@ -12,14 +12,18 @@ const Hero = () => {
 
         <button
           type="button"
-          onClick={() => window.open("https://github.com/", "_blank")}
+          onClick={() =>
+            window.open("https://github.com/sharafatsaqib", "_blank")
+          }
           className="black_btn text-xl font-mono ml-auto"
         >
           GitHub
         </button>
         <button
           type="button"
-          onClick={() => window.open("https://linkedin.com/", "_blank")}
+          onClick={() =>
+            window.open("https://linkedin.com/sharafatsaqib", "_blank")
+          }
           className="blue_btn text-xl font-mono ml-3"
         >
           LinkedIn
