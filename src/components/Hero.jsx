@@ -13,7 +13,10 @@ const Hero = () => {
         <button
           type="button"
           onClick={() =>
-            window.open("https://github.com/sharafatsaqib", "_blank")
+            window.open(
+              "https://github.com/sharafatsaqib/Article-Summarizer",
+              "_blank"
+            )
           }
           className="black_btn text-xl font-mono ml-auto"
         >
@@ -22,11 +25,11 @@ const Hero = () => {
         <button
           type="button"
           onClick={() =>
-            window.open("https://linkedin.com/sharafatsaqib", "_blank")
+            window.open("https://sharasarticlesum.netlify.app/", "_blank")
           }
           className="blue_btn text-xl font-mono ml-3"
         >
-          LinkedIn
+          Netlify
         </button>
       </nav>
 
